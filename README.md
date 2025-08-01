@@ -1,12 +1,12 @@
 # Bank Customer Churn Prediction
 
-This project analyzes customer churn behavior for a European bank using Python. The goal is to identify which customers are at risk of leaving and uncover the key drivers behind their decisions. By leveraging data exploration, predictive modeling, and SHAP-based interpretability, we provide business-ready insights that can improve retention strategies.
+This project analyzes customer churn behavior for a European bank using Python. The goal is to identify which customers are at risk of leaving and uncover the key drivers behind their decisions. By leveraging data exploration, predictive modeling and SHAP-based interpretability, we provide business-ready insights that can improve retention strategies.
 
 ---
 
 ## 📊 Problem Statement
 
-Customer churn is a significant challenge in the banking industry. Understanding which customers are likely to leave — and why — allows banks to proactively intervene. This project answers:
+Customer churn is a significant challenge in the banking industry. Understanding which customers are likely to leave, and why, allows banks to proactively intervene. This project answers:
 
 - Who is most likely to churn?
 - What features (age, credit score, country, etc.) drive churn risk?
@@ -77,7 +77,7 @@ Using SHAP (TreeExplainer), we identified:
 | `age`               | Mid-age range (~40s) more likely |
 | `estimated_salary`  | Weak/no clear effect |
 
-SHAP summary and interaction plots allow us to understand how individual features contribute to each prediction — essential for transparency in a business context.
+SHAP summary and interaction plots allow us to understand how individual features contribute to each prediction - essential for transparency in a business context.
 
 ---
 
@@ -93,7 +93,7 @@ SHAP summary and interaction plots allow us to understand how individual feature
 
 The final project deliverable will include an interactive Tableau dashboard for stakeholder use, summarizing:
 
-- Churn rates by country, gender, and tenure
+- Churn rates by country, gender and tenure
 - KPI cards and filters
 - Actionable churn driver visualizations
 
